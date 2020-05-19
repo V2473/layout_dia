@@ -1681,10 +1681,10 @@ template {
 .gallery {
   grid-column: 8 / span 6;
   min-height: 400px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -1695,18 +1695,24 @@ template {
   @media (max-width: 767px) {
     .gallery {
       border-radius: 100px 0 0; } }
-  .gallery:before {
-    content: "";
-    z-index: -1;
+  .gallery__slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     width: 800px;
     background: url(../images/slider/slide-img-1.jpg) bottom left no-repeat;
-    border-radius: 200px 0 0; }
+    border-radius: 200px 0 0;
+    -webkit-transition: background 0.3s linear;
+    transition: background 0.3s linear; }
     @media (max-width: 767px) {
-      .gallery:before {
+      .gallery__slider {
         left: -20px; } }
   .gallery__buttons {
     display: -webkit-box;
