@@ -1785,11 +1785,9 @@ template {
     padding: 0;
     margin: auto;
     -ms-flex-item-align: center;
-        align-self: center;
-    font-size: 60px; }
+        align-self: center; }
     .mobile-menu-nav__item {
-      display: block;
-      font-size: 60px; }
+      display: block; }
   .mobile-menu__link {
     font-size: 50px; }
 
