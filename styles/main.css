@@ -1624,6 +1624,9 @@ template {
     @media (max-width: 767px) {
       .header__hire-us {
         grid-column: 2/span 1; } }
+    @media (max-width: 767px) {
+      .header__hire-us {
+        display: none; } }
     .header__hire-us::before {
       content: "";
       position: absolute;
@@ -1632,6 +1635,16 @@ template {
       width: 100%;
       border-radius: 4px;
       background: #ff9c8e; }
+  .header__hamburger {
+    display: none;
+    justify-self: end;
+    height: 100%; }
+    @media (max-width: 767px) {
+      .header__hamburger {
+        grid-column: 2/span 1; } }
+    @media (max-width: 767px) {
+      .header__hamburger {
+        display: block; } }
   .header__main {
     display: grid;
     grid-template-columns: repeat(12, minmax(37px, 69px));
