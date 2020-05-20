@@ -1428,14 +1428,14 @@ template {
   .process__button {
     font-size: 14px; }
 
-.testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text, .testimonials__name, .expertise__text, .process__text, .gallery__text, .input, .approach__text, .header__text, .contacts__text, .who-we-are__text, .vision__text {
+.testimonials__text-blue, .testimonials__text-yellow, .testimonials__text-red, .process__item-text, .testimonials__name, .expertise__text, .process__text, .gallery__text, .input, .approach__text, .header__text, .contacts__text, .who-we-are__text, .vision__text {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #6c788b;
   line-height: 150%; }
-  .testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text, .testimonials__name {
+  .testimonials__text-blue, .testimonials__text-yellow, .testimonials__text-red, .process__item-text, .testimonials__name {
     font-size: 13px; }
-    .testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text {
+    .testimonials__text-blue, .testimonials__text-yellow, .testimonials__text-red, .process__item-text {
       font-weight: 600; }
     .testimonials__name {
       color: #253757;
