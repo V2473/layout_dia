@@ -1372,96 +1372,115 @@ template {
 [hidden] {
   display: none; }
 
-.title, .title--h1, .title--h1-white, .title--h2, .title--h3, .title--h3-white, .title--h3-white-m32, .title--h3-m24, .title--h4, .title--wide, .title--wide-m16, .title--wide-white, .title--wide-white-m16, .title--wide-blue, .title--button, .title--numbers, .title--numbers-blue, .title--numbers-yellow, .title--numbers-green, .title--numbers-red, .title--14 {
+.title, .title--h1, .title--h1-white, .header__title-text, .title--h2, .expertise__title-text, .title--h3, .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title, .title--h3-m24, .process__header, .who-we-are__title,
+.testimonials__title, .title--h4, .expertise__title-item, .title--wide, .title--wide-m16, .process__title, .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
+.nav__text,
+.gallery__title-text, .title--wide-blue, .contacts__info-title, .testimonials__header, .title--button, .button__text, .title--numbers, .title--numbers-blue, .process__num-blue, .title--numbers-yellow, .process__num-yellow, .title--numbers-green, .process__num-green, .title--numbers-red, .process__num-red, .title--14, .process__button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #253757;
   line-height: 150%;
   margin-top: 0;
   margin-bottom: 0; }
-  .title--h1, .title--h1-white {
+  .title--h1, .title--h1-white, .header__title-text {
     font-size: 64px;
     line-height: 68px;
     letter-spacing: -2px; }
-    .title--h1-white {
+    .title--h1-white, .header__title-text {
       color: #fff; }
-  .title--h2 {
+  .title--h2, .expertise__title-text {
     font-size: 52px; }
-  .title--h3, .title--h3-white, .title--h3-white-m32, .title--h3-m24 {
+  .title--h3, .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title, .title--h3-m24, .process__header, .who-we-are__title,
+  .testimonials__title {
     font-size: 32px; }
-    .title--h3-white, .title--h3-white-m32 {
+    .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title {
       color: #fff; }
-      .title--h3-white-m32 {
+      .title--h3-white-m32, .approach__header {
         margin-bottom: 32px; }
-    .title--h3-m24 {
+    .title--h3-m24, .process__header {
       margin-bottom: 24px;
       line-height: 130%; }
-  .title--h4 {
+  .title--h4, .expertise__title-item {
     font-size: 20px; }
-  .title--wide, .title--wide-m16, .title--wide-white, .title--wide-white-m16, .title--wide-blue {
+  .title--wide, .title--wide-m16, .process__title, .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
+  .nav__text,
+  .gallery__title-text, .title--wide-blue, .contacts__info-title, .testimonials__header {
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #c0cdd7; }
-    .title--wide-m16 {
+    .title--wide-m16, .process__title {
       margin-bottom: 16px; }
-    .title--wide-white, .title--wide-white-m16 {
+    .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
+    .nav__text,
+    .gallery__title-text {
       color: #fff; }
-      .title--wide-white-m16 {
+      .title--wide-white-m16, .approach__title {
         margin-bottom: 16px; }
-    .title--wide-blue {
+    .title--wide-blue, .contacts__info-title {
       color: #80c4ff; }
-  .title--button {
+  .title--button, .button__text {
     font-size: 15px;
     color: #fff; }
-  .title--numbers, .title--numbers-blue, .title--numbers-yellow, .title--numbers-green, .title--numbers-red {
+  .title--numbers, .title--numbers-blue, .process__num-blue, .title--numbers-yellow, .process__num-yellow, .title--numbers-green, .process__num-green, .title--numbers-red, .process__num-red {
     font-size: 13px; }
-    .title--numbers-blue {
+    .title--numbers-blue, .process__num-blue {
       color: #56ccf2; }
-    .title--numbers-yellow {
+    .title--numbers-yellow, .process__num-yellow {
       color: #fcc91d; }
-    .title--numbers-green {
+    .title--numbers-green, .process__num-green {
       color: #15d850; }
-    .title--numbers-red {
+    .title--numbers-red, .process__num-red {
       color: #f36363; }
-  .title--14 {
+  .title--14, .process__button {
     font-size: 14px; }
 
-.text, .text--13, .text--13-b, .text--13-dark, .text--14, .text--14-b, .text--14lh, .text--14lh-white, .text--15, .text--15-b, .text--15-white, .text--18, .text--18-white, .text--24, .text--24-white {
+.text, .text--13, .text--13-b, .process__item-text,
+.testimonials__text-1,
+.testimonials__text-2,
+.testimonials__text-3, .text--13-dark, .testimonials__name, .text--14, .text--14-b, .expertise__text,
+.process__text, .text--14lh, .text--14lh-white, .gallery__text, .text--15, .text--15-b, .input, .text--15-white, .approach__text, .text--18, .text--18-white, .header__text, .text--24, .text--24-white, .contacts__text, .who-we-are__text {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #6c788b;
   line-height: 150%; }
-  .text--13, .text--13-b, .text--13-dark {
+  .text--13, .text--13-b, .process__item-text,
+  .testimonials__text-1,
+  .testimonials__text-2,
+  .testimonials__text-3, .text--13-dark, .testimonials__name {
     font-size: 13px; }
-    .text--13-b {
+    .text--13-b, .process__item-text,
+    .testimonials__text-1,
+    .testimonials__text-2,
+    .testimonials__text-3 {
       font-weight: 600; }
-    .text--13-dark {
+    .text--13-dark, .testimonials__name {
       color: #253757;
       font-weight: 600; }
-  .text--14, .text--14-b {
+  .text--14, .text--14-b, .expertise__text,
+  .process__text {
     font-size: 14px; }
     .text--14-b {
       font-weight: 600; }
-  .text--14lh, .text--14lh-white {
+  .text--14lh, .text--14lh-white, .gallery__text {
     font-size: 14px;
     line-height: 140%; }
-    .text--14lh-white {
+    .text--14lh-white, .gallery__text {
       color: #fff; }
-  .text--15, .text--15-b, .text--15-white {
+  .text--15, .text--15-b, .input, .text--15-white, .approach__text {
     font-size: 15px; }
-    .text--15-b {
+    .text--15-b, .input {
       font-weight: 600; }
-    .text--15-white {
+    .text--15-white, .approach__text {
       color: #fff; }
-  .text--18, .text--18-white {
+  .text--18, .text--18-white, .header__text {
     font-size: 18px; }
-    .text--18-white {
+    .text--18-white, .header__text {
       color: #fff; }
-  .text--24, .text--24-white {
+  .text--24, .text--24-white, .contacts__text, .who-we-are__text {
     font-size: 24px; }
-    .text--24-white {
+    .text--24-white, .contacts__text {
       color: #fff; }
 
 .link {
@@ -1646,7 +1665,8 @@ template {
     justify-self: end;
     height: 100%;
     outline: none;
-    z-index: 4; }
+    z-index: 4;
+    margin-top: 5px; }
     @media (max-width: 767px) {
       .header__hamburger {
         grid-column: 2/span 1; } }
@@ -1774,26 +1794,27 @@ template {
           transform: translateY(-151vh);
   width: 100vw;
   height: 100vh;
-  background: red;
+  background: #fcc91d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   z-index: 3; }
-  .mobile-menu-nav {
-    list-style: none;
-    padding: 0;
-    margin: auto;
-    -ms-flex-item-align: center;
-        align-self: center; }
-    .mobile-menu-nav__item {
-      display: block; }
-  .mobile-menu__link {
-    font-size: 50px; }
 
 .on {
   -webkit-transform: translateY(0);
           transform: translateY(0); }
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  -ms-flex-item-align: center;
+      align-self: center; }
+  .mobile-nav__item {
+    display: block; }
+  .mobile-nav__link {
+    font-size: 40px; }
 
 .about {
   display: grid;
@@ -1872,7 +1893,7 @@ template {
     @media (max-width: 767px) {
       .expertise__title {
         grid-column: 1/span 2; } }
-    .expertise__title--item {
+    .expertise__title-item {
       margin-bottom: 16px; }
   .expertise__section {
     grid-column: 1 / span 12;
@@ -1917,7 +1938,7 @@ template {
     @media (max-width: 767px) {
       .expertise__item {
         margin-bottom: 50px; } }
-  .expertise__img, .expertise__img--1, .expertise__img--2, .expertise__img--3 {
+  .expertise__img {
     width: 166px;
     height: 166px;
     background-size: cover;
@@ -2102,8 +2123,10 @@ template {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 64px; }
+    margin-bottom: 64px;
+    position: relative; }
   .approach__icon, .approach__icon-1, .approach__icon-2, .approach__icon-3 {
+    position: absolute;
     width: 64px;
     height: 64px;
     background-color: #fff;
@@ -2116,7 +2139,8 @@ template {
     .approach__icon-3 {
       background: url(../images/features/features-item-icon-3.svg) center no-repeat; }
   .approach__text {
-    width: 265px; }
+    max-width: 265px;
+    margin-left: 80px; }
   .approach__img {
     position: relative;
     grid-column: 8 / span 5; }
@@ -2264,7 +2288,10 @@ template {
       .testimonials__img-3::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #f36363;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #f36363; }
-  .testimonials__text, .testimonials__text-1, .testimonials__text-2, .testimonials__text-3 {
+  .testimonials__text,
+  .testimonials__text-1,
+  .testimonials__text-2,
+  .testimonials__text-3 {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2322,25 +2349,28 @@ template {
   .vision__title {
     margin-bottom: 24px;
     grid-column: 1 / span 12;
-    justify-self: center; }
+    justify-self: center;
+    z-index: 5; }
     @media (max-width: 767px) {
       .vision__title {
         grid-column: 1/span 2; } }
   .vision__text {
     margin-bottom: 64px;
     grid-column: 1 / span 12;
-    justify-self: center; }
+    justify-self: center;
+    z-index: 5; }
     @media (max-width: 767px) {
       .vision__text {
         grid-column: 1/span 2; } }
   .vision__button {
     grid-column: 1 / span 12;
-    justify-self: center; }
+    justify-self: center;
+    z-index: 5; }
     @media (max-width: 767px) {
       .vision__button {
         grid-column: 1/span 2; } }
 
-.clip, .clip-1, .clip-2, .clip-3, .clip-4, .clip-5, .clip-6, .clip-7, .clip-8, .clip-9, .clip-10, .clip-11, .clip-12 {
+.clip, .clip__1, .clip__2, .clip__3, .clip__4, .clip__5, .clip__6, .clip__7, .clip__8, .clip__9, .clip__10, .clip__11, .clip__12 {
   position: relative;
   border-radius: 500px;
   -webkit-transform: rotate(-65.1deg);
@@ -2353,21 +2383,21 @@ template {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s; }
-  .clip:hover, .clip-1:hover, .clip-2:hover, .clip-3:hover, .clip-4:hover, .clip-5:hover, .clip-6:hover, .clip-7:hover, .clip-8:hover, .clip-9:hover, .clip-10:hover, .clip-11:hover, .clip-12:hover {
+  .clip:hover, .clip__1:hover, .clip__2:hover, .clip__3:hover, .clip__4:hover, .clip__5:hover, .clip__6:hover, .clip__7:hover, .clip__8:hover, .clip__9:hover, .clip__10:hover, .clip__11:hover, .clip__12:hover {
     background: blue; }
-  .clip:hover, .clip-1:hover, .clip-2:hover, .clip-3:hover, .clip-4:hover, .clip-5:hover, .clip-6:hover, .clip-7:hover, .clip-8:hover, .clip-9:hover, .clip-10:hover, .clip-11:hover, .clip-12:hover {
+  .clip:hover, .clip__1:hover, .clip__2:hover, .clip__3:hover, .clip__4:hover, .clip__5:hover, .clip__6:hover, .clip__7:hover, .clip__8:hover, .clip__9:hover, .clip__10:hover, .clip__11:hover, .clip__12:hover {
     -webkit-transform: scale(2) rotate(-75.1deg);
             transform: scale(2) rotate(-75.1deg); }
-  .clip_absolute {
+  .clip__absolute {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw; }
-  .clip_wrapper {
+  .clip__wrapper {
     position: relative; }
-  .clip-individual-wrap {
+  .clip__individual-wrap {
     position: absolute; }
-  .clip::after, .clip-1::after, .clip-2::after, .clip-3::after, .clip-4::after, .clip-5::after, .clip-6::after, .clip-7::after, .clip-8::after, .clip-9::after, .clip-10::after, .clip-11::after, .clip-12::after {
+  .clip::after, .clip__1::after, .clip__2::after, .clip__3::after, .clip__4::after, .clip__5::after, .clip__6::after, .clip__7::after, .clip__8::after, .clip__9::after, .clip__10::after, .clip__11::after, .clip__12::after {
     content: "";
     position: absolute;
     border-radius: 500px;
@@ -2375,134 +2405,134 @@ template {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.5) 50%);
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
-  .clip-1 {
+  .clip__1 {
     border: 5px solid #03d542;
     height: 56px;
     width: 143px;
     top: 350px;
     left: 5vw; }
-    .clip-1::after {
+    .clip__1::after {
       top: -5px;
       left: -5px;
       height: 56px;
       width: 143px; }
-  .clip-2 {
+  .clip__2 {
     border: 3px solid #f25656;
     height: 34px;
     width: 86px;
     top: 150px;
     left: 0; }
-    .clip-2::after {
+    .clip__2::after {
       top: -3px;
       left: -3px;
       height: 34px;
       width: 86px; }
-  .clip-3 {
+  .clip__3 {
     border: 3px solid #fcc304;
     height: 17px;
     width: 45px;
     top: 77px;
     left: 17vw; }
-    .clip-3::after {
+    .clip__3::after {
       top: -3px;
       left: -3px;
       height: 17px;
       width: 45px; }
-  .clip-4 {
+  .clip__4 {
     border: 5px solid #56ccf2;
     height: 26px;
     width: 67px;
     top: 450px;
     left: -5vw; }
-    .clip-4::after {
+    .clip__4::after {
       top: -5px;
       left: -5px;
       height: 26px;
       width: 67px; }
-  .clip-5 {
+  .clip__5 {
     border: 5px solid #bc04fc;
     height: 36px;
     width: 93px;
     top: 600px;
     left: -3vw; }
-    .clip-5::after {
+    .clip__5::after {
       top: -5px;
       left: -5px;
       height: 36px;
       width: 93px; }
-  .clip-6 {
+  .clip__6 {
     border: 5px solid #fcc304;
     height: 17px;
     width: 45px;
     top: 500px;
     left: 18vw; }
-    .clip-6::after {
+    .clip__6::after {
       top: -5px;
       left: -5px;
       height: 17px;
       width: 45px; }
-  .clip-7 {
+  .clip__7 {
     border: 5px solid #03d542;
     height: 56px;
     width: 143px;
     top: 150px;
     left: 1000px; }
-    .clip-7::after {
+    .clip__7::after {
       top: -5px;
       left: -5px;
       height: 56px;
       width: 143px; }
-  .clip-8 {
+  .clip__8 {
     border: 5px solid #bc04fc;
     height: 21px;
     width: 54px;
     top: 100px;
     left: 1200px; }
-    .clip-8::after {
+    .clip__8::after {
       top: -5px;
       left: -5px;
       height: 21px;
       width: 54px; }
-  .clip-9 {
+  .clip__9 {
     border: 3px solid #bc04fc;
     height: 17px;
     width: 45px;
     top: 550px;
     left: 800px; }
-    .clip-9::after {
+    .clip__9::after {
       top: -3px;
       left: -3px;
       height: 17px;
       width: 45px; }
-  .clip-10 {
+  .clip__10 {
     border: 3px solid #f25656;
     height: 33px;
     width: 85px;
     top: 450px;
     left: 950px; }
-    .clip-10::after {
+    .clip__10::after {
       top: -3px;
       left: -3px;
       height: 33px;
       width: 85px; }
-  .clip-11 {
+  .clip__11 {
     border: 5px solid #56ccf2;
     height: 60px;
     width: 153px;
     top: 450px;
     left: 1100px; }
-    .clip-11::after {
+    .clip__11::after {
       top: -5px;
       left: -5px;
       height: 60px;
       width: 153px; }
-  .clip-12 {
+  .clip__12 {
     border: 3px solid #fcc304;
     height: 35px;
     width: 86px;
     top: 250px;
     left: 1200px; }
-    .clip-12::after {
+    .clip__12::after {
       top: -3px;
       left: -3px;
       height: 35px;
