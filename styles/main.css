@@ -1372,115 +1372,94 @@ template {
 [hidden] {
   display: none; }
 
-.title, .title--h1, .title--h1-white, .header__title-text, .title--h2, .expertise__title-text, .title--h3, .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title, .title--h3-m24, .process__header, .who-we-are__title,
-.testimonials__title, .title--h4, .expertise__title-item, .title--wide, .title--wide-m16, .process__title, .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
-.nav__text,
-.gallery__title-text, .title--wide-blue, .contacts__info-title, .testimonials__header, .title--button, .button__text, .title--numbers, .title--numbers-blue, .process__num-blue, .title--numbers-yellow, .process__num-yellow, .title--numbers-green, .process__num-green, .title--numbers-red, .process__num-red, .title--14, .process__button {
+.header__title-text, .expertise__title-text, .vision__title, .approach__header, .contacts__title, .process__header, .who-we-are__title, .testimonials__title, .expertise__title-item, .process__title, .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text, .contacts__info-title, .testimonials__header, .button__text, .process__num-blue, .process__num-yellow, .process__num-green, .process__num-red, .process__button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #253757;
   line-height: 150%;
   margin-top: 0;
   margin-bottom: 0; }
-  .title--h1, .title--h1-white, .header__title-text {
+  .header__title-text {
     font-size: 64px;
     line-height: 68px;
     letter-spacing: -2px; }
-    .title--h1-white, .header__title-text {
+    .header__title-text {
       color: #fff; }
-  .title--h2, .expertise__title-text {
+  .expertise__title-text, .vision__title {
     font-size: 52px; }
-  .title--h3, .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title, .title--h3-m24, .process__header, .who-we-are__title,
-  .testimonials__title {
+  .approach__header, .contacts__title, .process__header, .who-we-are__title, .testimonials__title {
     font-size: 32px; }
-    .title--h3-white, .title--h3-white-m32, .approach__header, .contacts__title {
+    .approach__header, .contacts__title {
       color: #fff; }
-      .title--h3-white-m32, .approach__header {
+      .approach__header {
         margin-bottom: 32px; }
-    .title--h3-m24, .process__header {
+    .process__header {
       margin-bottom: 24px;
       line-height: 130%; }
-  .title--h4, .expertise__title-item {
+  .expertise__title-item {
     font-size: 20px; }
-  .title--wide, .title--wide-m16, .process__title, .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
-  .nav__text,
-  .gallery__title-text, .title--wide-blue, .contacts__info-title, .testimonials__header {
+  .process__title, .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text, .contacts__info-title, .testimonials__header {
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #c0cdd7; }
-    .title--wide-m16, .process__title {
+    .process__title {
       margin-bottom: 16px; }
-    .title--wide-white, .title--wide-white-m16, .approach__title, .mobile-nav__link,
-    .nav__text,
-    .gallery__title-text {
+    .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text {
       color: #fff; }
-      .title--wide-white-m16, .approach__title {
+      .approach__title {
         margin-bottom: 16px; }
-    .title--wide-blue, .contacts__info-title {
+    .contacts__info-title {
       color: #80c4ff; }
-  .title--button, .button__text {
+  .button__text {
     font-size: 15px;
     color: #fff; }
-  .title--numbers, .title--numbers-blue, .process__num-blue, .title--numbers-yellow, .process__num-yellow, .title--numbers-green, .process__num-green, .title--numbers-red, .process__num-red {
+  .process__num-blue, .process__num-yellow, .process__num-green, .process__num-red {
     font-size: 13px; }
-    .title--numbers-blue, .process__num-blue {
+    .process__num-blue {
       color: #56ccf2; }
-    .title--numbers-yellow, .process__num-yellow {
+    .process__num-yellow {
       color: #fcc91d; }
-    .title--numbers-green, .process__num-green {
+    .process__num-green {
       color: #15d850; }
-    .title--numbers-red, .process__num-red {
+    .process__num-red {
       color: #f36363; }
-  .title--14, .process__button {
+  .process__button {
     font-size: 14px; }
 
-.text, .text--13, .text--13-b, .process__item-text,
-.testimonials__text-1,
-.testimonials__text-2,
-.testimonials__text-3, .text--13-dark, .testimonials__name, .text--14, .text--14-b, .expertise__text,
-.process__text, .text--14lh, .text--14lh-white, .gallery__text, .text--15, .text--15-b, .input, .text--15-white, .approach__text, .text--18, .text--18-white, .header__text, .text--24, .text--24-white, .contacts__text, .who-we-are__text {
+.testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text, .testimonials__name, .expertise__text, .process__text, .gallery__text, .input, .approach__text, .header__text, .contacts__text, .who-we-are__text, .vision__text {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #6c788b;
   line-height: 150%; }
-  .text--13, .text--13-b, .process__item-text,
-  .testimonials__text-1,
-  .testimonials__text-2,
-  .testimonials__text-3, .text--13-dark, .testimonials__name {
+  .testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text, .testimonials__name {
     font-size: 13px; }
-    .text--13-b, .process__item-text,
-    .testimonials__text-1,
-    .testimonials__text-2,
-    .testimonials__text-3 {
+    .testimonials__text-1, .testimonials__text-2, .testimonials__text-3, .process__item-text {
       font-weight: 600; }
-    .text--13-dark, .testimonials__name {
+    .testimonials__name {
       color: #253757;
       font-weight: 600; }
-  .text--14, .text--14-b, .expertise__text,
-  .process__text {
+  .expertise__text, .process__text {
     font-size: 14px; }
-    .text--14-b {
-      font-weight: 600; }
-  .text--14lh, .text--14lh-white, .gallery__text {
+  .gallery__text {
     font-size: 14px;
     line-height: 140%; }
-    .text--14lh-white, .gallery__text {
+    .gallery__text {
       color: #fff; }
-  .text--15, .text--15-b, .input, .text--15-white, .approach__text {
+  .input, .approach__text {
     font-size: 15px; }
-    .text--15-b, .input {
+    .input {
       font-weight: 600; }
-    .text--15-white, .approach__text {
+    .approach__text {
       color: #fff; }
-  .text--18, .text--18-white, .header__text {
+  .header__text {
     font-size: 18px; }
-    .text--18-white, .header__text {
+    .header__text {
       color: #fff; }
-  .text--24, .text--24-white, .contacts__text, .who-we-are__text {
+  .contacts__text, .who-we-are__text, .vision__text {
     font-size: 24px; }
-    .text--24-white, .contacts__text {
+    .contacts__text {
       color: #fff; }
 
 .link {
@@ -2288,10 +2267,7 @@ template {
       .testimonials__img-3::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #f36363;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #f36363; }
-  .testimonials__text,
-  .testimonials__text-1,
-  .testimonials__text-2,
-  .testimonials__text-3 {
+  .testimonials__text, .testimonials__text-1, .testimonials__text-2, .testimonials__text-3 {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
