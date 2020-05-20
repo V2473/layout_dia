@@ -2020,19 +2020,19 @@ template {
       background: #15d8500f; }
     .process__num-red {
       background: #f363630f; }
-  .process__arrow, .process__arrow-blue, .process__arrow-yellow, .process__arrow-green, .process__arrow-red {
+  .process__arrow {
     height: 40px;
     width: 40px;
     margin-right: 16px;
     border-radius: 50%;
     background: url("../images/expertise/arrow.svg") center no-repeat; }
-    .process__arrow-blue {
+    .process__arrow--blue {
       background-color: #56ccf2; }
-    .process__arrow-yellow {
+    .process__arrow--yellow {
       background-color: #fcc91d; }
-    .process__arrow-green {
+    .process__arrow--green {
       background-color: #15d850; }
-    .process__arrow-red {
+    .process__arrow-r-ed {
       background-color: #f36363; }
   .process__link {
     display: -webkit-box;
