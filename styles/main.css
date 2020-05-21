@@ -2267,7 +2267,7 @@ template {
       .testimonials__img--3::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #f36363;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #f36363; }
-  .testimonials__text, .testimonials__text-blue, .testimonials__text-yellow, .testimonials__text-red {
+  .testimonials__text {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2275,17 +2275,17 @@ template {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    .testimonials__text::before, .testimonials__text-blue::before, .testimonials__text-yellow::before, .testimonials__text-red::before {
+    .testimonials__text::before {
       content: "";
       height: 21px;
       width: 21px;
       position: absolute;
       top: -33px; }
-    .testimonials__text-blue::before {
+    .testimonials__text--blue::before {
       background: url("../images/testimonials/quotes-blue.svg") center no-repeat; }
-    .testimonials__text-yellow::before {
+    .testimonials__text--yellow::before {
       background: url("../images/testimonials/quotes-yellow.svg") center no-repeat; }
-    .testimonials__text-red::before {
+    .testimonials__text--red::before {
       background: url("../images/testimonials/quotes-red.svg") center no-repeat; }
 
 .vision {
