@@ -2346,173 +2346,173 @@ template {
       .vision__button {
         grid-column: 1/span 2; } }
 
-.clip, .clip__1, .clip__2, .clip__3, .clip__4, .clip__5, .clip__6, .clip__7, .clip__8, .clip__9, .clip__10, .clip__11, .clip__12 {
-  position: relative;
-  border-radius: 500px;
-  -webkit-transform: rotate(-65.1deg);
-          transform: rotate(-65.1deg);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: background 0.3s;
-  transition: background 0.3s;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s; }
-  .clip:hover, .clip__1:hover, .clip__2:hover, .clip__3:hover, .clip__4:hover, .clip__5:hover, .clip__6:hover, .clip__7:hover, .clip__8:hover, .clip__9:hover, .clip__10:hover, .clip__11:hover, .clip__12:hover {
-    background: blue; }
-  .clip:hover, .clip__1:hover, .clip__2:hover, .clip__3:hover, .clip__4:hover, .clip__5:hover, .clip__6:hover, .clip__7:hover, .clip__8:hover, .clip__9:hover, .clip__10:hover, .clip__11:hover, .clip__12:hover {
-    -webkit-transform: scale(2) rotate(-75.1deg);
-            transform: scale(2) rotate(-75.1deg); }
-  .clip__absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw; }
+.clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; }
   .clip__wrapper {
     position: relative; }
   .clip__individual-wrap {
     position: absolute; }
-  .clip::after, .clip__1::after, .clip__2::after, .clip__3::after, .clip__4::after, .clip__5::after, .clip__6::after, .clip__7::after, .clip__8::after, .clip__9::after, .clip__10::after, .clip__11::after, .clip__12::after {
-    content: "";
-    position: absolute;
+  .clip__item {
+    position: relative;
     border-radius: 500px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(255, 255, 255, 0.5)));
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.5) 50%);
+    -webkit-transform: rotate(-65.1deg);
+            transform: rotate(-65.1deg);
     -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  .clip__1 {
-    border: 5px solid #03d542;
-    height: 56px;
-    width: 143px;
-    top: 350px;
-    left: 5vw; }
-    .clip__1::after {
-      top: -5px;
-      left: -5px;
+            box-sizing: border-box;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s; }
+    .clip__item:hover {
+      background: blue; }
+    .clip__item:hover {
+      -webkit-transform: scale(2) rotate(-75.1deg);
+              transform: scale(2) rotate(-75.1deg); }
+    .clip__item::after {
+      content: "";
+      position: absolute;
+      border-radius: 500px;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), color-stop(50%, rgba(255, 255, 255, 0.5)));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.5) 50%);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .clip__item--1 {
+      border: 5px solid #03d542;
       height: 56px;
-      width: 143px; }
-  .clip__2 {
-    border: 3px solid #f25656;
-    height: 34px;
-    width: 86px;
-    top: 150px;
-    left: 0; }
-    .clip__2::after {
-      top: -3px;
-      left: -3px;
+      width: 143px;
+      top: 350px;
+      left: 5vw; }
+      .clip__item--1::after {
+        top: -5px;
+        left: -5px;
+        height: 56px;
+        width: 143px; }
+    .clip__item--2 {
+      border: 3px solid #f25656;
       height: 34px;
-      width: 86px; }
-  .clip__3 {
-    border: 3px solid #fcc304;
-    height: 17px;
-    width: 45px;
-    top: 77px;
-    left: 17vw; }
-    .clip__3::after {
-      top: -3px;
-      left: -3px;
+      width: 86px;
+      top: 150px;
+      left: 0; }
+      .clip__item--2::after {
+        top: -3px;
+        left: -3px;
+        height: 34px;
+        width: 86px; }
+    .clip__item--3 {
+      border: 3px solid #fcc304;
       height: 17px;
-      width: 45px; }
-  .clip__4 {
-    border: 5px solid #56ccf2;
-    height: 26px;
-    width: 67px;
-    top: 450px;
-    left: -5vw; }
-    .clip__4::after {
-      top: -5px;
-      left: -5px;
+      width: 45px;
+      top: 77px;
+      left: 17vw; }
+      .clip__item--3::after {
+        top: -3px;
+        left: -3px;
+        height: 17px;
+        width: 45px; }
+    .clip__item--4 {
+      border: 5px solid #56ccf2;
       height: 26px;
-      width: 67px; }
-  .clip__5 {
-    border: 5px solid #bc04fc;
-    height: 36px;
-    width: 93px;
-    top: 600px;
-    left: -3vw; }
-    .clip__5::after {
-      top: -5px;
-      left: -5px;
+      width: 67px;
+      top: 450px;
+      left: -5vw; }
+      .clip__item--4::after {
+        top: -5px;
+        left: -5px;
+        height: 26px;
+        width: 67px; }
+    .clip__item--5 {
+      border: 5px solid #bc04fc;
       height: 36px;
-      width: 93px; }
-  .clip__6 {
-    border: 5px solid #fcc304;
-    height: 17px;
-    width: 45px;
-    top: 500px;
-    left: 18vw; }
-    .clip__6::after {
-      top: -5px;
-      left: -5px;
+      width: 93px;
+      top: 600px;
+      left: -3vw; }
+      .clip__item--5::after {
+        top: -5px;
+        left: -5px;
+        height: 36px;
+        width: 93px; }
+    .clip__item--6 {
+      border: 5px solid #fcc304;
       height: 17px;
-      width: 45px; }
-  .clip__7 {
-    border: 5px solid #03d542;
-    height: 56px;
-    width: 143px;
-    top: 150px;
-    left: 1000px; }
-    .clip__7::after {
-      top: -5px;
-      left: -5px;
+      width: 45px;
+      top: 500px;
+      left: 18vw; }
+      .clip__item--6::after {
+        top: -5px;
+        left: -5px;
+        height: 17px;
+        width: 45px; }
+    .clip__item--7 {
+      border: 5px solid #03d542;
       height: 56px;
-      width: 143px; }
-  .clip__8 {
-    border: 5px solid #bc04fc;
-    height: 21px;
-    width: 54px;
-    top: 100px;
-    left: 1200px; }
-    .clip__8::after {
-      top: -5px;
-      left: -5px;
+      width: 143px;
+      top: 150px;
+      left: 1000px; }
+      .clip__item--7::after {
+        top: -5px;
+        left: -5px;
+        height: 56px;
+        width: 143px; }
+    .clip__item--8 {
+      border: 5px solid #bc04fc;
       height: 21px;
-      width: 54px; }
-  .clip__9 {
-    border: 3px solid #bc04fc;
-    height: 17px;
-    width: 45px;
-    top: 550px;
-    left: 800px; }
-    .clip__9::after {
-      top: -3px;
-      left: -3px;
+      width: 54px;
+      top: 100px;
+      left: 1200px; }
+      .clip__item--8::after {
+        top: -5px;
+        left: -5px;
+        height: 21px;
+        width: 54px; }
+    .clip__item--9 {
+      border: 3px solid #bc04fc;
       height: 17px;
-      width: 45px; }
-  .clip__10 {
-    border: 3px solid #f25656;
-    height: 33px;
-    width: 85px;
-    top: 450px;
-    left: 950px; }
-    .clip__10::after {
-      top: -3px;
-      left: -3px;
+      width: 45px;
+      top: 550px;
+      left: 800px; }
+      .clip__item--9::after {
+        top: -3px;
+        left: -3px;
+        height: 17px;
+        width: 45px; }
+    .clip__item--10 {
+      border: 3px solid #f25656;
       height: 33px;
-      width: 85px; }
-  .clip__11 {
-    border: 5px solid #56ccf2;
-    height: 60px;
-    width: 153px;
-    top: 450px;
-    left: 1100px; }
-    .clip__11::after {
-      top: -5px;
-      left: -5px;
+      width: 85px;
+      top: 450px;
+      left: 950px; }
+      .clip__item--10::after {
+        top: -3px;
+        left: -3px;
+        height: 33px;
+        width: 85px; }
+    .clip__item--11 {
+      border: 5px solid #56ccf2;
       height: 60px;
-      width: 153px; }
-  .clip__12 {
-    border: 3px solid #fcc304;
-    height: 35px;
-    width: 86px;
-    top: 250px;
-    left: 1200px; }
-    .clip__12::after {
-      top: -3px;
-      left: -3px;
+      width: 153px;
+      top: 450px;
+      left: 1100px; }
+      .clip__item--11::after {
+        top: -5px;
+        left: -5px;
+        height: 60px;
+        width: 153px; }
+    .clip__item--12 {
+      border: 3px solid #fcc304;
       height: 35px;
-      width: 86px; }
+      width: 86px;
+      top: 250px;
+      left: 1200px; }
+      .clip__item--12::after {
+        top: -3px;
+        left: -3px;
+        height: 35px;
+        width: 86px; }
 
 .contacts {
   padding-top: 180px;
