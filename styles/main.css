@@ -1372,6 +1372,14 @@ template {
 [hidden] {
   display: none; }
 
+.mobile-nav__link, .nav__text, .button, .gallery__button, .process__link, .contacts__text, .contacts__img {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+  .mobile-nav__link:hover, .nav__text:hover, .button:hover, .gallery__button:hover, .process__link:hover, .contacts__text:hover, .contacts__img:hover {
+    color: #d2ebff; }
+
 .header__title-text, .expertise__title-text, .vision__title, .approach__header, .contacts__title, .process__header, .who-we-are__title, .testimonials__title, .expertise__title-item, .process__title, .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text, .contacts__info-title, .testimonials__header, .button__text, .process__num--blue, .process__num--yellow, .process__num--green, .process__num--red, .process__button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -1461,14 +1469,6 @@ template {
     font-size: 24px; }
     .contacts__text {
       color: #fff; }
-
-.link, .mobile-nav__link, .nav__text, .button, .gallery__button, .contacts__img {
-  text-decoration: none;
-  cursor: pointer;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s; }
-  .link:hover, .mobile-nav__link:hover, .nav__text:hover, .button:hover, .gallery__button:hover, .contacts__img:hover {
-    color: #d2ebff; }
 
 .nav {
   list-style: none;
@@ -2032,7 +2032,7 @@ template {
       background-color: #fcc91d; }
     .process__arrow--green {
       background-color: #15d850; }
-    .process__arrow-r-ed {
+    .process__arrow--red {
       background-color: #f36363; }
   .process__link {
     display: -webkit-box;
