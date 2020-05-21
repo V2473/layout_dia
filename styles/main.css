@@ -1372,7 +1372,7 @@ template {
 [hidden] {
   display: none; }
 
-.header__title-text, .expertise__title-text, .vision__title, .approach__header, .contacts__title, .process__header, .who-we-are__title, .testimonials__title, .expertise__title-item, .process__title, .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text, .contacts__info-title, .testimonials__header, .button__text, .process__num-blue, .process__num-yellow, .process__num-green, .process__num-red, .process__button {
+.header__title-text, .expertise__title-text, .vision__title, .approach__header, .contacts__title, .process__header, .who-we-are__title, .testimonials__title, .expertise__title-item, .process__title, .approach__title, .mobile-nav__link, .nav__text, .gallery__title-text, .contacts__info-title, .testimonials__header, .button__text, .process__num--blue, .process__num--yellow, .process__num--green, .process__num--red, .process__button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #253757;
@@ -1415,15 +1415,15 @@ template {
   .button__text {
     font-size: 15px;
     color: #fff; }
-  .process__num-blue, .process__num-yellow, .process__num-green, .process__num-red {
+  .process__num--blue, .process__num--yellow, .process__num--green, .process__num--red {
     font-size: 13px; }
-    .process__num-blue {
+    .process__num--blue {
       color: #56ccf2; }
-    .process__num-yellow {
+    .process__num--yellow {
       color: #fcc91d; }
-    .process__num-green {
+    .process__num--green {
       color: #15d850; }
-    .process__num-red {
+    .process__num--red {
       color: #f36363; }
   .process__button {
     font-size: 14px; }
@@ -1462,12 +1462,12 @@ template {
     .contacts__text {
       color: #fff; }
 
-.link {
+.link, .mobile-nav__link, .nav__text, .button, .gallery__button, .contacts__img {
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
-  .link:hover {
+  .link:hover, .mobile-nav__link:hover, .nav__text:hover, .button:hover, .gallery__button:hover, .contacts__img:hover {
     color: #d2ebff; }
 
 .nav {
@@ -1746,7 +1746,7 @@ template {
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0 24px 66px 40px; }
-  .gallery__button, .gallery__button-l, .gallery__button-r {
+  .gallery__button {
     width: 32px;
     height: 32px;
     background: #fff;
@@ -1761,7 +1761,7 @@ template {
   .gallery__info {
     margin-bottom: 40px; }
 
-.mobile-abs {
+.relative {
   position: relative; }
 
 .mobile-menu {
@@ -1969,30 +1969,30 @@ template {
     @media (max-width: 767px) {
       .process__info {
         grid-column: 1/span 2; } }
-  .process__items-1 {
+  .process__left {
     margin-top: 30px;
     grid-column: 7 / span 3;
     -webkit-transform: translateY(102px);
             transform: translateY(102px); }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .process__items-1 {
+  .process__left {
     grid-column: 5/span 4; } }
     @media (max-width: 767px) {
-      .process__items-1 {
+      .process__left {
         grid-column: 1/span 2; } }
     @media (max-width: 767px) {
-      .process__items-1 {
+      .process__left {
         -webkit-transform: translateY(0);
                 transform: translateY(0); } }
-  .process__items-2 {
+  .process__right {
     grid-column: 10 / span 3; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .process__items-2 {
+  .process__right {
     grid-column: 9/span 4; } }
     @media (max-width: 767px) {
-      .process__items-2 {
+      .process__right {
         grid-column: 1/span 2; } }
   .process__item {
     background: #fff;
@@ -2007,18 +2007,18 @@ template {
     @media (max-width: 767px) {
       .process__item {
         justify-self: center; } }
-  .process__num, .process__num-blue, .process__num-yellow, .process__num-green, .process__num-red {
+  .process__num {
     border-radius: 23px;
     width: 46px;
     text-align: center;
     margin-bottom: 24px; }
-    .process__num-blue {
+    .process__num--blue {
       background: #56ccf20f; }
-    .process__num-yellow {
+    .process__num--yellow {
       background: #fcc91d0f; }
-    .process__num-green {
+    .process__num--green {
       background: #15d8500f; }
-    .process__num-red {
+    .process__num--red {
       background: #f363630f; }
   .process__arrow {
     height: 40px;
@@ -2104,18 +2104,18 @@ template {
             align-items: center;
     margin-bottom: 64px;
     position: relative; }
-  .approach__icon, .approach__icon-1, .approach__icon-2, .approach__icon-3 {
+  .approach__icon {
     position: absolute;
     width: 64px;
     height: 64px;
     background-color: #fff;
     border-radius: 50%;
     margin-right: 34px; }
-    .approach__icon-1 {
+    .approach__icon--1 {
       background: url(../images/features/features-item-icon-1.svg) center no-repeat; }
-    .approach__icon-2 {
+    .approach__icon--2 {
       background: url(../images/features/features-item-icon-2.svg) center no-repeat; }
-    .approach__icon-3 {
+    .approach__icon--3 {
       background: url(../images/features/features-item-icon-3.svg) center no-repeat; }
   .approach__text {
     max-width: 265px;
@@ -2211,7 +2211,7 @@ template {
     @media (max-width: 767px) {
       .testimonials__item {
         margin: 20px auto; } }
-  .testimonials__img, .testimonials__img-1, .testimonials__img-2, .testimonials__img-3 {
+  .testimonials__img {
     height: 140px;
     width: 140px;
     border-radius: 50%;
@@ -2220,9 +2220,9 @@ template {
     margin-bottom: 85px;
     -webkit-transition: border-radius 0.3s;
     transition: border-radius 0.3s; }
-    .testimonials__img:hover, .testimonials__img-1:hover, .testimonials__img-2:hover, .testimonials__img-3:hover {
+    .testimonials__img:hover {
       border-radius: 30%; }
-    .testimonials__img::before, .testimonials__img-1::before, .testimonials__img-2::before, .testimonials__img-3::before {
+    .testimonials__img::before {
       content: "";
       position: absolute;
       height: 56px;
@@ -2232,7 +2232,7 @@ template {
       -webkit-transform: rotate(-60deg);
               transform: rotate(-60deg);
       z-index: -1; }
-    .testimonials__img::after, .testimonials__img-1::after, .testimonials__img-2::after, .testimonials__img-3::after {
+    .testimonials__img::after {
       content: "";
       position: absolute;
       height: 56px;
@@ -2243,28 +2243,28 @@ template {
       -webkit-transform: rotate(-60deg);
               transform: rotate(-60deg);
       z-index: -1; }
-    .testimonials__img-1 {
+    .testimonials__img--1 {
       background: url("../images/testimonials/testimonial-ava-1.jpg"); }
-      .testimonials__img-1::before {
+      .testimonials__img--1::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #56ccf2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #56ccf2; }
-      .testimonials__img-1::after {
+      .testimonials__img--1::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #56ccf2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #56ccf2; }
-    .testimonials__img-2 {
+    .testimonials__img--2 {
       background: url("../images/testimonials/testimonial-ava-2.jpg"); }
-      .testimonials__img-2::before {
+      .testimonials__img--2::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #fcc91d;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #fcc91d; }
-      .testimonials__img-2::after {
+      .testimonials__img--2::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #fcc91d;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #fcc91d; }
-    .testimonials__img-3 {
+    .testimonials__img--3 {
       background: url("../images/testimonials/testimonial-ava-3.jpg"); }
-      .testimonials__img-3::before {
+      .testimonials__img--3::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #f36363;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #f36363; }
-      .testimonials__img-3::after {
+      .testimonials__img--3::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))) #f36363;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) #f36363; }
   .testimonials__text, .testimonials__text-blue, .testimonials__text-yellow, .testimonials__text-red {
@@ -2611,27 +2611,27 @@ template {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  .contacts__img, .contacts__img-facebook, .contacts__img-twitter, .contacts__img-instagram {
+  .contacts__img {
     width: 24px;
     height: 24px;
     margin-right: 36px; }
-    .contacts__img-facebook {
+    .contacts__img--facebook {
       background: url("../images/contacts/f.svg") center no-repeat;
       -webkit-transition: background 0.3s;
       transition: background 0.3s; }
-      .contacts__img-facebook:hover {
+      .contacts__img--facebook:hover {
         background: url("../images/contacts/f-hover.svg") center no-repeat; }
-    .contacts__img-twitter {
+    .contacts__img--twitter {
       background: url("../images/contacts/t.svg") center no-repeat;
       -webkit-transition: background 0.3s;
       transition: background 0.3s; }
-      .contacts__img-twitter:hover {
+      .contacts__img--twitter:hover {
         background: url("../images/contacts/t-hover.svg") center no-repeat; }
-    .contacts__img-instagram {
+    .contacts__img--instagram {
       background: url("../images/contacts/i.svg") center no-repeat;
       -webkit-transition: background 0.3s;
       transition: background 0.3s; }
-      .contacts__img-instagram:hover {
+      .contacts__img--instagram:hover {
         background: url("../images/contacts/i-hover.svg") center no-repeat; }
 
 .footer {
